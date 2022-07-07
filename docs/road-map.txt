@@ -1,0 +1,9 @@
+1. Craete initial projects;
+2. Develop an user interface;
+3. Write docs;
+4. Research the ACME Protocol (RFC 8555);
+5. Develop a generic logic;
+6. Implement modules to interact with WIN/LNX servers, Registars (1 at least), a Certificate Authority (1 at least);
+7. Implement the user interface;
+8. Create CI/CD pipelines;
+9. Upload releases (with NuGet packages and DockerHub Images).
