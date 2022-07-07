@@ -8,8 +8,8 @@ on:
 
 jobs:
 
-  build:
-    runs-on: [ self-hosted, csk-projects-lnx ]
+  test:
+    runs-on: [ self-hosted, cherry-cert-lnx ]
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
