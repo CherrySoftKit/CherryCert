@@ -1,0 +1,17 @@
+name: Cc.Test
+
+on:
+  push:
+    paths:
+    - '.github/workflows/cc-test.yml'
+    branches: [ main, dev ]
+
+jobs:
+
+  build:
+    runs-on: [ self-hosted, csk-projects-lnx ]
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Display test message
+        run: echo "Cc.Test"
